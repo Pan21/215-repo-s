@@ -1,11 +1,12 @@
 .hero_wrap{
     width: 100%;
     height: 500px;
-    background-color: grey;
+    //background-color: grey;
 
     .hero{
-        width: 1280px;
-        height: 100%;
+
+        @include center-content();
+        height: 110%;
         margin: 0 auto;
         flex-direction: column;
         display: flex;

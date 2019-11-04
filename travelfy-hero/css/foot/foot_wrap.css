@@ -1,0 +1,8 @@
+.foot_wrap {
+  width: 100%;
+  height: 100px;
+  background-color: blue; }
+  .foot_wrap .footer {
+    width: 1280px;
+    height: 100%;
+    margin: 0 auto; }
