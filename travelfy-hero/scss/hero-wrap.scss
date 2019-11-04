@@ -18,7 +18,7 @@
 
         .callout{
             margin-top: 70px;
-            width: 714px;
+            width: 70%;
             height: 80px;
             text-align: center;
 
@@ -39,6 +39,22 @@
             background-color: lightblue;
             color: $site-white;
             text-decoration: none;
+        }
+    }
+}
+
+@media (max-width: 830px){
+    .hero_wrap{
+        .hero{
+            .callout{
+                h1{
+                    font-size: 50px;
+                }
+
+                .callout-desc{
+                    font-size: 30px;
+                }
+            }
         }
     }
 }
