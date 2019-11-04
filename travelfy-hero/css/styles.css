@@ -137,7 +137,7 @@ nav {
     nav .link-wrap .navicon .dropbtn {
       width: 44px;
       height: 44px;
-      background-image: url("/img/menu-24-512.png");
+      background-image: url("../img/menu-24-512.png");
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
@@ -180,7 +180,7 @@ nav {
       width: 236px;
       height: 304px;
       margin-left: 18%;
-      background-image: url("/img/tour/tour-01.jpg");
+      background-image: url("../img/tour/tour-01.jpg");
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat; }
@@ -195,7 +195,7 @@ nav {
     .tiles .tilepanel .USA {
       width: 236px;
       height: 304px;
-      background-image: url("/img/tour/tour-02.jpg");
+      background-image: url("../img/tour/tour-02.jpg");
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat; }
@@ -211,7 +211,7 @@ nav {
       width: 236px;
       height: 304px;
       margin-right: 18%;
-      background-image: url("/img/tour/tour-03.jpg");
+      background-image: url("../img/tour/tour-03.jpg");
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat; }
