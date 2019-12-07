@@ -38,132 +38,144 @@
             }
         }
 
-        .USA{
-            width: 236px;
-            height: 304px;
-            background-image: url("../img/tour/tour-02.jpg");
-            background-position: center;
-            background-size: cover;
-            background-repeat: no-repeat;
+        h2 {
+          font-size: 34px;
+          text-align: center;
+          padding-bottom: 60px;
+        }
+      }
+    
 
+    .USA {
+      width: 236px;
+      height: 304px;
+      background-image: url("../img/tour/tour-02.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
 
-            .USA-txt{
-                h1{
-                    padding-top: 27px;
-                    font-size: 42px;
-                    text-align: center;
-                }
-
-                h2{
-
-                    font-size: 34px;
-                    text-align: center;
-                    padding-bottom: 60px;
-                }
-            }
-
+      .USA-txt {
+        h1 {
+          padding-top: 27px;
+          font-size: 42px;
+          text-align: center;
         }
 
-        .AUS{
-            width: 236px;
-            height: 304px;
-            margin-right: 18%;
-            background-image: url("../img/tour/tour-03.jpg");
-            background-position: center;
-            background-size: cover;
-            background-repeat: no-repeat;
+        h2 {
+          font-size: 34px;
+          text-align: center;
+          padding-bottom: 60px;
+        }
+      }
+    }
 
-            .AUS-txt{
-                h1{
-                    padding-top: 27px;
-                    font-size: 42px;
-                    text-align: center;
-                }
+    .AUS {
+      width: 236px;
+      height: 304px;
+      margin-right: 18%;
+      background-image: url("../img/tour/tour-03.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
 
-                h2{
-                    font-size: 34px;
-                    text-align: center;
-                    padding-bottom: 60px;
-                }
-
-            }
-
-
+      .AUS-txt {
+        h1 {
+          padding-top: 27px;
+          font-size: 42px;
+          text-align: center;
         }
 
-        .tile-button {
-            background-color: $site-blue;
-            border: none;
-            color: white;
-            padding: 10px 42px;
-            text-decoration: none;
-            margin: 0px 50px;
-            cursor: pointer;
-            border-radius: 40px;
+        h2 {
+          font-size: 34px;
+          text-align: center;
+          padding-bottom: 60px;
         }
+      }
+    }
 
-
-
+    .tile-button {
+      background-color: $site-blue;
+      border: none;
+      color: white;
+      padding: 10px 42px;
+      text-decoration: none;
+      margin: 0px 50px;
+      cursor: pointer;
+      border-radius: 40px;
     }
 }
 
-.book-form{
-    height: 700px;
-    @include center-content($site-full-width, 0 auto);
+.book-form {
+  height: 700px;
+  @include center-content($site-full-width, 0 auto);
 
-    h1{
-        margin: 0 auto;
-        margin-top: 20px;
-        text-align: left;
+  h1 {
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: left;
+  }
+
+  .booking-content {
+    max-width: 600px;
+    margin: 0 auto;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+
+    input[type="text"] {
+      padding: 10px 15px;
+      border: 2px solid $site-blue;
+      margin: 8px 5px;
     }
-    
 
-
-    .booking-content{
-        max-width: 600px;
-        margin: 0 auto;
-        flex-direction: column;
-        display: flex;
-        align-items: center;
-
-
-        input[type=text]{
-            Padding: 10px 15px;
-            border: 2px solid $site-blue;
-            margin: 8px 5px;
-        }
-
-        select{
-            width: 20%;
-            padding: 10px 15px;
-            border: 2px solid $site-blue;
-            background-color: #f1f1f1; 
-        }
-
-        textarea {
-            margin-top: 10px;
-            width: 100%;
-            height: 150px;
-            padding: 10px 15px;
-            box-sizing: border-box;
-            border: 2px solid $site-blue;
-            border-radius: 4px;
-            background-color: #f8f8f8;
-            font-size: 16px;
-            resize: none;
-          }
-
-          input[type=submit]{
-            background-color: $site-blue;
-            border: none;
-            color: white;
-            padding: 16px 102px;
-            text-decoration: none;
-            margin: 4px 2px;
-            cursor: pointer;
-            border-radius: 40px;
-          }
+    select {
+      width: 20%;
+      padding: 10px 15px;
+      border: 2px solid $site-blue;
+      background-color: white;
     }
+
+    textarea {
+      margin-top: 10px;
+      width: 100%;
+      height: 150px;
+      padding: 10px 15px;
+      box-sizing: border-box;
+      border: 2px solid $site-blue;
+      border-radius: 4px;
+      background-color: white;
+      font-size: 16px;
+      resize: none;
+    }
+
+    input[type="submit"] {
+      background-color: $site-blue;
+      border: none;
+      color: white;
+      padding: 16px 102px;
+      text-decoration: none;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 40px;
+    }
+  }
+}
+@media (max-width: 830px) {
+  .tiles {
+    .tilepanel {
+      .isreal {
+        display: none;
+      }
+
+      .USA {
+        margin: 0 auto;
+      }
+
+      .AUS {
+        display: none;
+      }
+    }
+  }
 }
 @media (max-width: 830px){
 
@@ -188,3 +200,4 @@
     }
 
 }
+
