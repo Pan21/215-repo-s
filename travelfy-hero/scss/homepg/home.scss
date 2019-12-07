@@ -1,13 +1,14 @@
 .tiles{
     @include center-content($site-full-width, 0 auto);
     height: 300px;
+    margin-bottom: 50px;
 
     .tilepanel{
         margin: 0 auto;
         flex-direction: row;
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-around;
 
         .isreal{
             width: 236px;
@@ -185,7 +186,5 @@
         }
     
     }
-
-
 
 }

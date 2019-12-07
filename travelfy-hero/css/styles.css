@@ -64,12 +64,48 @@ p {
   .hero_wrap .hero .callout .callout-desc {
     font-size: 30px; } }
 
+.nav_wrap {
+  width: 100%;
+  height: 200px; }
+  .nav_wrap .hero {
+    max-width: 1280px;
+    margin: 0 auto;
+    height: 110%;
+    margin: 0 auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .nav_wrap .hero .callout {
+      margin-top: 70px;
+      width: 70%;
+      height: 80px;
+      text-align: center; }
+      .nav_wrap .hero .callout h1 {
+        color: #fff;
+        font-size: 60px; }
+      .nav_wrap .hero .callout .callout-desc {
+        color: #fff;
+        margin-bottom: 70px;
+        font-size: 40px; }
+    .nav_wrap .hero .site-button {
+      padding: 10px 40px;
+      background-color: lightblue;
+      color: #fff;
+      text-decoration: none; }
+
 nav {
   position: relative;
   z-index: 99;
   width: 80%;
   height: 92px;
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid black;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -166,7 +202,8 @@ nav {
 .tiles {
   max-width: 1280px;
   margin: 0 auto;
-  height: 300px; }
+  height: 300px;
+  margin-bottom: 50px; }
   .tiles .tilepanel {
     margin: 0 auto;
     -webkit-box-orient: horizontal;
@@ -179,9 +216,8 @@ nav {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between; }
+    -ms-flex-pack: distribute;
+    justify-content: space-around; }
     .tiles .tilepanel .isreal {
       width: 236px;
       height: 304px;
@@ -338,3 +374,12 @@ nav {
 @media (max-width: 830px) {
   .copyright {
     display: none; } }
+
+.tourbanner {
+  max-width: 1280px;
+  margin: 0 auto;
+  height: 400px;
+  margin-bottom: 50px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
