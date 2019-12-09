@@ -577,6 +577,55 @@ nav {
     background-size: cover;
     background-repeat: no-repeat; }
 
+.blog-container {
+  height: 1200px;
+  max-width: 1280px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+  .blog-container .blog-title {
+    font-size: x-large; }
+  .blog-container .blog-post {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    max-width: 980px; }
+    .blog-container .blog-post .blog-cal {
+      height: 60px;
+      width: 60px;
+      background-color: #79ADDC;
+      text-align: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      margin: 10px;
+      color: white; }
+    .blog-container .blog-post .blog-pic {
+      width: 900px;
+      height: 259px;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; }
+  .blog-container .blog-info {
+    margin-left: 10%;
+    margin-bottom: 25px; }
+    .blog-container .blog-info .blog-txt-title {
+      font-size: x-large; }
+    .blog-container .blog-info .blog-content {
+      max-width: 380px; }
+
 .tourWrap {
   height: 1500px;
   max-width: 1280px;
@@ -673,52 +722,3 @@ nav {
       display: none; }
     .tourWrap .tour-photo .photo-3 {
       display: none; } }
-
-.blog-container {
-  height: 1200px;
-  max-width: 1280px;
-  margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column; }
-  .blog-container .blog-title {
-    font-size: x-large; }
-  .blog-container .blog-post {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    max-width: 980px; }
-    .blog-container .blog-post .blog-cal {
-      height: 60px;
-      width: 60px;
-      background-color: #79ADDC;
-      text-align: center;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-      align-items: center;
-      -webkit-box-pack: center;
-      -ms-flex-pack: center;
-      justify-content: center;
-      margin: 10px;
-      color: white; }
-    .blog-container .blog-post .blog-pic {
-      width: 900px;
-      height: 259px;
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat; }
-  .blog-container .blog-info {
-    margin-left: 10%;
-    margin-bottom: 25px; }
-    .blog-container .blog-info .blog-txt-title {
-      font-size: x-large; }
-    .blog-container .blog-info .blog-content {
-      max-width: 380px; }
