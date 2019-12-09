@@ -1,12 +1,14 @@
 nav{
     position: relative;
     z-index: 99;
-    width: 80%;
+    width: 70%;
     height: 92px;
     border-bottom: 2px solid black;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 50px;
+    margin-left: 15%;
 
     .logo{
         height: 42px;

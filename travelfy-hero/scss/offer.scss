@@ -1,0 +1,63 @@
+.SPtitle{
+    @include center-content($site-full-width, 0 auto);
+    margin:20px 0 0 20%;
+    border-bottom: 5px solid black;
+    //position: fixed;
+    width: 150px;
+
+}
+
+
+
+.spOffer{
+
+    @include center-content($site-full-width, 0 auto);
+    padding: 50px;
+    display: flex;
+    
+
+    .offerIMG{
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 199px;
+        height: 287px;
+        
+
+    }
+
+    .offerTXT{
+        
+        width: 306px;
+
+
+
+        .offerTitle{
+            border-bottom: 5px solid black;
+            font-size: larger;
+            margin: 0 0 20px 25px;
+        flex-direction: row;
+        display: flex;
+        justify-content: space-between;
+        }
+
+        .offerCont{
+            padding-left: 25px;
+            margin-bottom: 50px;
+
+        }
+
+        .tile-button {
+            background-color: $site-blue;
+            border: none;
+            color: white;
+            padding: 10px 42px;
+            text-decoration: none;
+            margin: 0px 50px;
+            cursor: pointer;
+            border-radius: 40px;
+          }
+
+    }
+
+}

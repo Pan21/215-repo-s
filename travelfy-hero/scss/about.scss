@@ -1,0 +1,47 @@
+.aboutContainer{
+    width: 100%;
+    height: 1000px;
+    @include center-content();
+    display: flex;
+    flex-direction: column;
+    
+    .title{
+        width: 70%;
+        font-size: 60px;
+    }
+
+    .about-cont{
+        max-width: 890px;
+        margin-bottom: 100px;
+    }
+
+    .client-info-cont{
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        margin-bottom: 25px;
+
+
+        .client-img{
+            width: 260px;
+            height: 150px;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .client-txt{
+            margin: 20px;
+            max-width: 385px;
+        }
+    }
+
+    .client-img{
+        width: 260px;
+        height: 150px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
